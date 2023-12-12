@@ -18,7 +18,7 @@ spec:
       - name: petclinic
         image: becomedevops/petclinicjavaapp
         ports:
-        - containerPort: 8080
+        - containerPort: 8060
 ---
 
 apiVersion: v1
