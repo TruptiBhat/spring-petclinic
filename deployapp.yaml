@@ -17,8 +17,6 @@ spec:
       containers:
       - name: petclinic
         image: becomedevops/petclinics:latest
-        ports:
-        - containerPort: 8060
 ---
 
 apiVersion: v1
