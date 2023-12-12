@@ -28,7 +28,7 @@ spec:
     app: pet
   ports:
     - protocol: TCP
-      port: 80
+      port: 8080
       targetPort: 8060
   
   type: LoadBalancer
